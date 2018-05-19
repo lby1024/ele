@@ -1,0 +1,14 @@
+.scroll02 {
+    width: 100%;
+    height: 100%;
+}
+.scroll02>.container {
+    height: 100%;
+}
+.scroll02>.container>img {
+    margin-right: .3rem;
+    width: 1.2rem;
+}
+.scroll02>.container>img:last-child {
+    margin-right: 0;
+}

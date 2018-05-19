@@ -1,0 +1,10 @@
+.card>h1 {
+    height: .26rem;
+    line-height: .26rem;
+    padding-left: .14rem;
+    font-size: .18rem;
+    background-color: #f3f5f7;
+    color: #4d555d;
+    font-size: .12rem;
+    border-left: 3px solid #d9dde1;
+}

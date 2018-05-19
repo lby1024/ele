@@ -1,0 +1,159 @@
+.seller{
+    background: #f3f5f7;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 1.74rem;
+}
+.seller>.scroll-cart {
+    height: 100%;
+}
+.seller .title {
+    padding: 0 .2rem;
+    background-color: #fff;
+    border-bottom: 2px solid rgba(7,17,27,.1);
+}
+.seller .title>.name {
+    position: relative;
+    padding-top: .18rem;
+    border-bottom: 1px solid #eee;
+}
+.seller .title>.name>h1 {
+    font-size: .18rem;
+    font-weight: bold;
+}
+.seller .title>.name>.score {
+    position: relative;
+    display: flex;
+    font-size: .12rem;
+    color: #999;
+    align-items: center;
+    margin-top: .16rem;
+    margin-bottom: .16rem;
+
+}
+.seller .title>.name>.score>.stars {
+    transform: scale(.6);
+    position: relative;
+    left: -.23rem;
+    bottom: .02rem;
+}
+.seller .title>.name>.score>span {
+    transform: translateX(-.3rem)
+}
+.seller .title>.name>.collection {
+    position: absolute;
+    top: .1rem;
+    right: 0;
+    width: .7rem;
+    height: .7rem;
+    box-sizing: border-box;
+    padding-top: .5rem;
+    font-size: .15rem;
+    text-align: center;
+    background-image: url('../../assets/img/love2.png');
+    background-size: 39% 39%;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+}
+.seller .title>.name>.collection.cur {
+    background-image: url('../../assets/img/love.png');    
+}
+.seller .title>.data {
+    display: flex;
+    font-size: .12rem;
+    justify-content: space-around;
+}
+.seller .title>.data>div {
+    width: 33.33%;
+    margin-top: .12rem;
+    margin-bottom: .12rem;
+    height: .5rem;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.seller .title>.data>div:last-child {
+    border-right: 0px;
+}
+.seller .title>.data>div>div:first-child {
+    font-size: .16rem;
+    color: #999;
+    margin-bottom: .1rem;
+}
+.seller .title>.data>div>div:last-child>span {
+    font-size: .21rem;
+}
+.seller .notic {
+    background: #fff;
+    margin-top: .21rem;
+    border-bottom: 2px solid rgba(7,17,27,.1);
+}
+.seller .notic>.title01 {
+    height: .39rem;
+    line-height: .39rem;
+    padding-left: .18rem;
+    font-size: .18rem;
+}
+.seller .notic>.bulletin {
+    font-size: .14rem;
+    line-height: 1.5em;
+    color: red;
+    margin: 0 .3rem;
+    padding-bottom: .12rem;
+    border-bottom: 1px solid rgba(7,17,27,.1);
+}
+.seller .notic>.support {
+    margin: 0 .3rem;
+    border-bottom: 1px solid rgba(7,17,27,.1);
+    font-size: .12rem;
+    height: .5rem;
+    display: flex;
+    align-items: center;
+    
+}
+.seller .notic>.support>i {
+    margin-right: .1rem;
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.seller .notic>.support>i.icon0 {
+    background-image: url('../../assets/img/decrease_3@2x.png')
+}
+.seller .notic>.support>i.icon1 {
+    background-image: url('../../assets/img/invoice_3@2x.png')
+}
+.seller .notic>.support>i.icon2 {
+    background-image: url('../../assets/img/discount_3@2x.png')
+}
+.seller .notic>.support>i.icon3 {
+    background-image: url('../../assets/img/guarantee_3@2x.png')
+}
+.seller .notic>.support>i.icon4 {
+    background-image: url('../../assets/img/invoice_3@2x.png')
+}
+.seller .pic {
+    margin-top: .18rem;
+    background: #fff;
+    height: 1.39rem;
+    padding: 0 .3rem;
+    border-top: 1px solid rgba(7,17,27,.1);
+    border-bottom: 1px solid rgba(7,17,27,.1);
+}
+.seller .pic>.header {
+    font-size: .16rem;
+    height: .27rem;
+    margin-bottom: .1rem;
+    line-height: .27rem;
+}
+.seller .pic>.scroll {
+    width: 100%;
+    height: .9rem;
+}

@@ -1,0 +1,14 @@
+.loading {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background: #eee;
+}
+.loading img {
+    width: .3rem;
+    padding-bottom: .1rem
+}

@@ -1,0 +1,15 @@
+.page-comment {
+    background: #eee;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 1.74rem;
+    overflow: hidden;
+}
+.page-comment .scroll-cart {
+    height: 100%;
+}
+.page-comment .comment-body {
+    margin-top: .18rem;
+}

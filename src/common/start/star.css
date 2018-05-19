@@ -1,0 +1,10 @@
+.stars {
+}
+.stars>.star {
+    width: .2rem;
+    height: .2rem;
+    margin-right: .1rem;
+}
+.stars>.star:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,62 @@
+.card-item {
+    height: .96rem;
+    box-sizing: border-box;
+    padding: .18rem;
+    position: relative;
+    background: #fff;
+    display: flex;
+    font-size: .12rem;
+}
+.card-item::after{
+    content: '';
+    height: 1px;
+    width: 2.59rem;
+    background-color: rgba(7,17,27,.1);
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+}
+.card-item>.left {
+    width: .57rem;
+    height: .57rem;
+    background-color: #eee;
+    background-size: 100% 100%;
+    background-size: center center;
+}
+.card-item>.for_click {
+    position: absolute;
+    width: 1.5rem;
+    height: .8rem;
+    top: .12rem;
+    left: 0;
+}
+.card-item>.right {
+    position: relative;
+    padding-left: .15rem;
+    color: #93999f;
+    box-sizing: border-box;
+    width: 2.1rem;
+    height: .76rem;
+}
+.card-item>.right>h1{
+    color: #000;
+    font-size: .15rem;
+    margin-bottom: .06rem;
+    font-weight: bold;
+}
+.card-item>.right>h2 {
+    margin-bottom: .06rem;
+    width: 1.8rem;  /*必须设置宽度*/
+    overflow: hidden;  /*溢出隐藏*/
+    text-overflow: ellipsis; /*以省略号...显示*/
+    white-space: nowrap;  /*强制不换行*/
+}
+.card-item>.right>h3 {
+    margin-top: .06rem;
+    font-size: .15rem;
+    color: red;
+}
+.card-item>.right>h3>span:last-child {
+    color: #93999f;
+}
+

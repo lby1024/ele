@@ -1,0 +1,21 @@
+.info {
+    font-size: .12rem;
+    padding: .21rem .3rem;
+    background: #fff;
+    margin-top: .21rem;
+    border-top: 2px solid rgba(7,17,27,.1);
+    box-sizing: border-box;
+}
+.info>h1 {
+    height: .24rem;
+    line-height: .24rem;
+    font-size: .18rem;
+    padding-bottom: .12rem;
+    border-bottom: 1px solid rgba(7,17,27,.1);
+}
+.info>p {
+    height: .5rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(7,17,27,.1);
+}

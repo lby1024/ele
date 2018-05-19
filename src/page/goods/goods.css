@@ -1,0 +1,87 @@
+.goods{
+    position: absolute;
+    top: 1.74rem;
+    bottom: .48rem;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+@keyframes x {
+    0%{opacity: .5; z-index: 99;}
+    50%{opacity: 1;}
+    100%{left: 0; opacity: 0; z-index: 99;}
+}
+@keyframes y {
+    0%{}
+    100%{top: 100vh;}
+}
+.goods>.ball {
+    position: fixed;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    z-index: -99;
+    width: .18rem;
+    height: .18rem;
+    background: #00a0dc;
+    border-radius: 50%;
+    animation: x .5s linear, y .5s cubic-bezier(.5,-0.44,.83,.67);
+}
+
+.goods>.left{
+    width: .8rem;
+    flex: none;
+    background-color: #f3f5f7;
+}
+
+.goods>.left li {
+    padding: 0 .12rem;
+    height: .54rem;
+    border-bottom: 1px solid #e7e9ec;
+    font-size: .12rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.goods>.left li.cur{
+    background: #fff;
+}
+.goods>.left li div {
+    line-height: .15rem;
+}
+.goods>.left li span {
+    display: inline-block;
+    width: .13rem;
+    flex: none;
+    height: .13rem;
+    margin-right: .039rem;
+}
+.goods>.left li .icon0 {
+    background-image: url('../../assets/img/decrease_3@2x.png');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.goods>.left li .icon1 {
+    background-image: url('../../assets/img/discount_3@2x.png');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.goods>.left li .icon2 {
+    background-image: url('../../assets/img/guarantee_3@2x.png');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.goods>.left li .icon3 {
+    background-image: url('../../assets/img/invoice_3@2x.png');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.goods>.left li .icon4 {
+    background-image: url('../../assets/img/special_3@2x.png');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.goods>.right {
+    flex: auto;
+}
+

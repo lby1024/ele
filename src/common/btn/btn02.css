@@ -1,0 +1,19 @@
+.mbtn02 {
+    width: .8rem;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    background-color: #00a0dc;
+    position: absolute;
+    bottom: .12rem;
+    right: .18rem;
+    border-radius: .1rem;
+    color: #fff;
+    font-size: .12rem;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+.mbtn02.hidden {
+    opacity: 0;
+    width: 0;
+}

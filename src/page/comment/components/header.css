@@ -1,0 +1,63 @@
+.comment-header {
+    height: 1.18rem;
+    background: #fff;
+    padding: .18rem 0;
+    box-sizing: border-box;
+    display: flex;
+    font-size: .12rem;
+    border-bottom: 2px solid rgba(7,17,27,.1)
+}
+.comment-header-loading {
+    height: 1.18rem;
+    background: #fff;
+}
+.comment-header>.left {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;    
+    align-items: center;
+    width: 1.37rem;
+    border-right: 2px solid rgba(7,17,27,.1);
+    box-sizing: border-box;
+}
+.comment-header>.left>h1 {
+    font-size: .24rem;
+    color: orange;
+    margin-bottom: .1rem;
+}
+.comment-header>.left>h2 {
+    font-size: .14rem;
+    margin-bottom: .1rem;
+}
+.comment-header>.left>h3 {
+    color: #999;
+}
+.comment-header>.right {
+    padding-left: .24rem;
+}
+.comment-header>.right>div {
+    display: flex;
+    align-items: center;
+    height: .18rem;
+    margin-bottom: .1rem;
+}
+.comment-header>.right>div:first-child>span:last-child {
+    color: orange;
+}
+.comment-header>.right>div:nth-child(2)>span:last-child {
+    color: orange;
+}
+.comment-header>.right>div:nth-child(3)>span:last-child {
+    color: #999;
+    margin-left: .2rem;
+}
+.comment-header>.right .stars {
+    width: 1rem;
+    margin-left: .1rem;
+    transform: translateY(-.01rem);
+}
+.comment-header>.right .stars .star {
+    width: .14rem;
+    height: .14rem;
+    margin-right: .05rem;
+}

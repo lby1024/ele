@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    height: .4rem;
+    line-height: .4rem;
+    border-bottom: 1px solid rgba(7,17,27,.1);
+    box-sizing: border-box;
+}
+.nav>.nav-item {
+    font-size: .14rem;
+    color: #666;
+    text-decoration: none;
+    font-weight: 0;
+}
+.nav>.active{
+    color: red;
+}
